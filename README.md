@@ -115,7 +115,8 @@ poetry install
 ## Docker
 
 To get the project up and running via Docker after copying the repo:
-1- docker build --tag simple_mppi .
-2- docker run --rm -i -t simple_mppi
+
+docker build --tag simple_mppi .
+docker run --rm -i -t simple_mppi
 
 After these commands, you can use the run commands above.
