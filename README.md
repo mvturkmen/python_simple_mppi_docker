@@ -116,7 +116,21 @@ poetry install
 
 To get the project up and running via Docker after copying the repo:
 
-docker build --tag simple_mppi .
-docker run --rm -i -t simple_mppi
+1. **Build the Docker image** from the `Dockerfile`:
+
+    ```sh
+    docker build --tag simple_mppi .
+    ```
+
+    This command will build a Docker image named `simple_mppi` using the `Dockerfile` located in the current directory.
+
+2. **Run the Docker container**:
+
+    ```sh
+    docker run --rm -i -t simple_mppi
+    ```
+
+    This command runs the Docker container interactively, allowing you to execute scripts inside the container. The `--rm` flag ensures that the container is removed once stopped. The `-i` and `-t` flags are used to keep the terminal interactive.
 
 After these commands, you can use the run commands above.
+
