@@ -111,3 +111,11 @@ poetry install
 1. G. Williams et al. "Information-Theoretic Model Predictive Control: Theory and Applications to Autonomous Driving" 
     - URL : https://ieeexplore.ieee.org/document/8558663
     - PDF : https://arxiv.org/pdf/1707.02342.pdf
+
+## Docker
+
+To get the project up and running via Docker after copying the repo:
+1- docker build --tag simple_mppi .
+2- docker run --rm -i -t simple_mppi
+
+After these commands, you can use the run commands above.
